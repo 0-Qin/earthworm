@@ -1,0 +1,6 @@
+{
+  "kps_weights": [1.0, 1.0],
+  "flip_pairs": [],
+  "upper_body_ids": [0],
+  "lower_body_ids": [1]
+}

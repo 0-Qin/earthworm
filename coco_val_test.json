@@ -1,0 +1,86 @@
+{
+  "info": {
+    "description": "COCO Format Dataset for BSF (Test)",
+    "version": "1.0",
+    "year": 2023,
+    "contributor": ""
+  },
+  "licenses": [],
+  "images": [
+    {
+      "id": 0,
+      "file_name": "2023-07-10-15-12-29.jpg",
+      "height": 3040,
+      "width": 4056
+    },
+    {
+      "id": 1,
+      "file_name": "2023-07-10-15-14-33.jpg",
+      "height": 3040,
+      "width": 4056
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 0,
+      "category_id": 1,
+      "bbox": [
+        1889.76,
+        867.06,
+        488.24,
+        823.53
+      ],
+      "area":402080.29,
+      "iscrowd": 0,
+      "keypoints": [
+        2054.47,
+        1667.06,
+        2,
+        2374.07,
+        877.41,
+        2
+      ],
+      "num_keypoints": 2
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        2008.33,
+        1028.33,
+        333.33,
+        933.33
+      ],
+      "area": 311111.11,
+      "iscrowd": 0,
+      "keypoints": [
+        2137.5,
+        1024.17,
+        2,
+        2112.5,
+        1949.17,
+        2
+      ],
+      "num_keypoints": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "BSF",
+      "supercategory": "BSF",
+      "keypoints": [
+        "head",
+        "tail"
+      ],
+      "skeleton": [
+        [
+          1,
+          2
+        ]
+      ]
+    }
+  ]
+}
